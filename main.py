@@ -1,7 +1,9 @@
+
 from helper import find_weighted_average, add_arrays
 import time
 import numpy as np
 import os
+
 
 
     
@@ -20,6 +22,7 @@ def process_lists( scores:list, weights : list):
 
 
 
+
 if __name__ == "__main__":
     student_scores=[85,90,78]
     assignment_weights=[ 0.4, 0.4 , 0.2]
@@ -34,4 +37,9 @@ if __name__ == "__main__":
     print( f"Function took { end_time- start_time:.2f} seconds to execute")
     
     print("Result:", result)
+
+
+
+
+
 
