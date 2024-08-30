@@ -25,6 +25,4 @@ if __name__ == "__main__":
 
     end_time = time.time()
 
-    print(f"Function took {end_time - start_time:.2f} seconds to execute")
-
     print("Result:", result)
